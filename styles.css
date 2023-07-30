@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(227, 219, 243);
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(76, 76, 76);
+}
+#banner {
+    background-color: rgb(62, 3, 68); 
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: white;
+}
+.topbutton {
+    padding: 0.80rem;
+    border-radius: 0.15rem;
+    font-size: 1rem;
+    background-color: rgba(0, 255, 183, 0.66);
+    color: white;
+    border: 1px ;
+}
+button:hover {
+    background-color: #d09ab0;
+    color: white;
+}
+.header{
+    background-image: url(Imágenes/luces.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    color: rgb(27, 113, 113);
+    font-size: 7rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.descripcion{
+    font-size: 1.15rem;
+    float: right;
+    position: relative;
+    top: 30px;
+    left: -40px;
+    
+}
+h2 {
+    color: rgb(27, 113, 113);
+    font-size: 3rem;
+    margin-left: 50px;
+    margin: 0;
+    padding: 0;;
+}
+.main-one {
+    background-image: url(Imágenes/liso_rosa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    display:grid;
+    place-items: center;
+}
+#tabla1 {
+    width: 90%;
+    font-size: 1.15rem;
+}
+#tabla1, #tabla1 th,#tabla1 td {
+    border: 0.5px solid rgb(191, 188, 188);
+    border-spacing: 0;
+} 
+thead {
+   background-color:#f7a9fb;
+   text-transform: uppercase;
+   color: white;
+}
+#tabla1 th, #tabla2 th {
+    padding: 20px 15px;
+}
+.middle {
+    text-align: center;
+}
+.empresa-uno {
+    width: 50%;
+    border-radius: 15px;
+}
+.empresa-dos {
+    width: 60%;
+    border-radius: 15px;
+}
+ul {
+    list-style-type: none;
+    text-align: justify;
+    padding-right: 1rem;
+}
+ul li::before {
+    content: " - ";
+    color: rgb(161, 19, 161);
+}
+.main-two {
+    background-image: url(Imágenes/pawel-czerwinski-OG44d93iNJk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    display:grid;
+    place-items: center;
+}
+#tabla2{
+    width: 1000px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#tabla2 tbody {
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+}
+.main-three {
+    background-image: url(Imágenes/background\ final.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    display:grid;
+    place-items: center;
+}
+.main-three div {
+    float: left;
+    place-items: center;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+#educacion{
+    margin-top: 100px;
+}
+#img_ucv {
+    width: 20%;
+    padding: 0;
+    margin-left: 25px;
+}
+#img_jap {
+    width:25%;
+    padding: 0;
+    margin:0;
+}
+#img_udemy {
+    width: 20%;
+    padding: 0;
+    margin:0;
+}
+#img_linkedin {
+    width: 20%;
+    padding: 0; 
+    margin-right: 100px;
+}
+.footer {
+    background-image: url(Imágenes/degradado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh; 
+    display:grid;
+    place-items: center;
+    font-size: 1.25rem;
+}
+.link {
+    color: #2c5761;
+}
